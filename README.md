@@ -1,14 +1,11 @@
 # RF-Cable-and-Component-Testing
 
 ## Ojectective:
-To provide the field and construction team with a standard testing guide for common components.
+To provide the engineer with a standard testing guide for common components amd cables.
  
 While experience, root cause analysis, and efforts to continually improve trumps lecture and "learning by the book", below is an outline of a collection of general knowledge and use cases.
  
-While the spreadsheet is located on SharePoint, and available for anyone to add to, please open a  "change request" in the post section. Once approved, the requester can make the change, assuming uniformity of formatting remains the same.
-File Location:
-The file can be accessed via the Excel, in-window, App or with the Following link: Testing Matrix
-Sweep Testing: Introduction
+# Sweep Testing: Introduction
 ## Overview:
 The Return Loss (RL) and VSWR measurements are key field team measurements
 These measurements show the impedance match of the system and if it's within spec
@@ -37,6 +34,7 @@ RF signals and other systems
 You can also run a third test, one with a short attached to the end of the cable. Cell site insertion loss is measured with a short on one end of the cable, and a site master at the bottom end. 100% should reflect back. The signal travels up once, and then back down. I.e., it travels the distance twice. Because of this, if your final figure is 4 dB, you will divide by two to see the insertion loss is 2 dB's.
  
 NOTE: The quality of your measurements is only as good as the quality of your calibration. Reference the calibration section of this Wiki or refer to your Anritsu Online Help Tool.
+
 ## Return Loss: Expected Values
 If your return loss figure is:
 20 dB, indicates that 1% of the transmitted signal is being reflected back to the transmitter
@@ -66,9 +64,17 @@ The return losses plotted from a sole cable and one with an antenna will vary. T
  
 The image below shows a combined cables across a 80' length. You can see an average of ~4.5 dB loss.
 
+
+
+[IMAGE HERE]
+
+
  
 This image below not only shows the loss at the antenna, but also considered the system loss as shown above.
  
+
+
+[IMAGE HERE]
 
  
  
